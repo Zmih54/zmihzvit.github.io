@@ -1,0 +1,54 @@
+butline button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    word-wrap: normal;
+    text-align: left;
+    margin: 10px;
+}
+butstolb button{
+    padding: 20px 40px;
+    display: block;
+    margin: 10px;
+    word-wrap: normal;
+    text-align: left;
+    border-radius: 50px;
+}
+.button:hover {
+    background-color: #2980b9; /* Змінюємо колір при наведенні */
+}
+.button:active {
+    background-color: #1abc9c; /* Змінюємо колір при натисканні */
+  }
+.workspace {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+}
+
+.extra_butt{
+  margin-left: 10%;  
+}
+.head{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-align: right;
+    justify-content: center;
+}
+.head img {
+    margin-left: 60%;
+    width: 10%;
+    height: 30%;
+    align-self: flex-start;
+}
+h1{
+    text-align: center;
+}

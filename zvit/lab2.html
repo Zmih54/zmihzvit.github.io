@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Назва вашого сайту</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+    <h1 style="text-align:center;">ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ З ДИСЦИПЛІНИ "ІНТЕРНЕТ-ТЕХНОЛОГІЇ ТА ПРОЄКТУВАННЯ ВЕБ ЗАСТОСУВАНЬ"</h1>
+    <div class="head">
+        <h2>Студент групи ІС-21 Демич Сергій</h2>
+        <img src = "img1.jpg">
+    </div>
+    <br>
+    <butline>
+        <button>Лабораторна<br>робота №1</button>
+        <button onclick="lab2()">Лабораторна<br>робота №2</button>
+        <button>Лабораторна<br>робота №3</button>
+        <button>Лабораторна<br>робота №4</button>
+        <button>Лабораторна<br>робота №5</button>
+        <button>Лабораторна<br>робота №6</button>
+        <button>Лабораторна<br>робота №7</button>
+        <button>Лабораторна<br>робота №8</button>
+        <button>Лабораторна<br>робота №9</button>
+
+    </butline>
+    <br>
+    <butstolb class="container">
+        <div class="buttons">
+        <button onclick="changeText.changeTheme()">Тема, мета ЛР №2. Місце<br>розташування сайту, звіту</button>
+        <button onclick="changeText.changeStyles()">Способи підключення стилів</button>
+        <button>Селектори</button>
+        <div class="extra_butt">
+            <button onclick="changeText.changeSelectorsTags()">Селектори тегу</button>
+            <button onclick="changeText.changeSelectorsClases()">Селектори класу</button>
+            <button onclick="changeText.changeSelectorsId()">Селектори ідентифікаторів</button>
+            <button onclick="changeText.changeOtherSelectors()">Інші селектори</button>
+        </div>
+        <button onclick="changeText.changeFontPlus()">CSS: Шрифти, Текст, Таблицы, Фон, Контур, Списки, CSS Просунутий</button>
+        <button onclick="changeText.changeConclusions()">Висновки</button>
+        </div>
+
+        <div class="workspace" id="workspace">
+            <p>Текст з'явиться тут<br> після натискання на кнопку.</p>
+          </div>
+    </butstolb>
+</body>
