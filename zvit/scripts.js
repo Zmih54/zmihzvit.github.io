@@ -8,7 +8,7 @@ const changeText = {
     <br>
     Розташування сайту: https://github.com/Zmih54/zmihLabs
     <br>
-    Розташування звіту:`,
+    Розташування звіту: https://github.com/Zmih54/zmihzvit.github.io`,
 
 
     Styles: "У цій лабораторній роботі був використаний спосіб підключення зовнішнього СSS файлу",
