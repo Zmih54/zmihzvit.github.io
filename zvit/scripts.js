@@ -94,6 +94,42 @@ const changeText = {
     
     У результаті лабораторної роботи ми отримали поглиблені знання щодо використання JavaScript у веб-розробці, зокрема у поєднанні з HTML, і визначили широкі можливості використання масивів для ефективної обробки даних у JS-сценаріях.`,
 
+    Ex2: `Тема:   ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ​.
+    <br>
+    Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта.. Callback. Стрілочні функції. Стрілочні функції як колбеки​.
+    .  Реалізація програм засовами мови JAVASCRIPT
+    `
+    ,
+    Lab6: `Код вправи 1: <a href="https://prnt.sc/0o6oX-geYMrY">Посилання на код</a>
+    <br>
+    Результат виконання Вправи 1: <a href="https://prnt.sc/kocTu1nIDxTN">Посилання на результат</a>
+    <br>
+    Код вправи 2: <a href="https://prnt.sc/eSlLhHRXu6W-">Посилання на код</a>
+    <br>
+    Результат виконання Вправи 2: <a href="https://prnt.sc/2_SVhSIH3PSv">Посилання на результат</a>
+    <br>
+    Код вправи 3: <a href="https://prnt.sc/GkR-KoVfLtld">Посилання на код</a>
+    <br>
+    Результат виконання Вправи 3: <a href="https://prnt.sc/kqcpPRYcZMcC">Посилання на результат</a>
+    <br>
+    Код вправи 4: <a href="https://prnt.sc/-3RtLvcVhV3z">Посилання на код</a>
+    <br>
+    Результат виконання Вправи 4: <a href="https://prnt.sc/U1OAr3PKQ5tw">Посилання на результат</a>
+    <br>
+    Код вправи 5: <a href="https://prnt.sc/COqTLqg3cXH6">Посилання на код</a>
+    <br>
+    Результат виконання Вправи 5: <a href="https://prnt.sc/X2d6jqdIQRWa">Посилання на результат</a>`,
+    
+    Conclusions3: `У ході виконання лабораторної роботи ми ретельно вивчили та впровадили в практику ключові концепції JavaScript, пов'язані з роботою з об'єктами та функціями. Методи об'єкта, масиви об'єктів, деструктуризація об'єктів, колбеки та стрілочні функції виявилися потужними інструментами для розв'язання різноманітних задач.
+
+    Методи об'єкта надають можливість працювати з властивостями та поведінкою об'єктів, дозволяючи ефективно маніпулювати даними. Масиви об'єктів виявилися корисними для організації та обробки структурованих даних.
+    
+    Деструктуризація об'єктів дозволяє елегантно отримувати доступ до властивостей об'єктів та спрощує роботу з ними. Ця функціональність робить код більш зрозумілим та зменшує його обсяг.
+    
+    Колбеки, використовуючи стрілочні функції, виявилися ефективними для асинхронного програмування та обробки подій. Стрілочні функції дозволяють коротше та чітше виражати функціональні вирази.
+    
+    Таким чином, лабораторна робота допомогла засвоїти важливі аспекти роботи з об'єктами в JavaScript, розкривши потужність та гнучкість цих концепцій у реальних сценаріях програмування.`,
+
     Conclusions     : `Під час виконання лабораторної роботи я ознайомився з мовою програмування СSS,
     а також засвоїв основні принципи роботи з нею. Я дізнався про селектори, ідентифікатори, списки, та трохи попрактикувався з програмуванням на мові JavaScript.`,
     changeTheme: function(){document.getElementById("workspace").innerHTML =changeText.Theme;},
@@ -108,8 +144,15 @@ const changeText = {
     changeFour: function(){document.getElementById("workspace").innerHTML =changeText.Four;},
     changeSix: function(){document.getElementById("workspace").innerHTML =changeText.Six;},
     changeConclusions2: function(){document.getElementById("workspace").innerHTML =changeText.Conclusions2;},
+    changeEx2: function(){document.getElementById("workspace").innerHTML =changeText.Ex2;},
+    changeLab6: function(){document.getElementById("workspace").innerHTML =changeText.Lab6;},
+    changeConclusions3: function(){document.getElementById("workspace").innerHTML =changeText.Conclusions3;},
 }
 
 function lab5(){
     window.location.href = "lab5.html";
+}
+
+function lab6(){
+    window.location.href = "lab6.html";
 }
