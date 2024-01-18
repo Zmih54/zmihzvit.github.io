@@ -130,6 +130,35 @@ const changeText = {
     
     Таким чином, лабораторна робота допомогла засвоїти важливі аспекти роботи з об'єктами в JavaScript, розкривши потужність та гнучкість цих концепцій у реальних сценаріях програмування.`,
 
+    Ex3: `Тема: АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT.
+    СТРАТЕГІЯ MOBILE FIRST.
+    <br>
+    Мета: Адаптивна верстка. Медіа-запити. Медіа-типи. Медіа-функції.Метатег
+    viewport. Інструменти розробника. Стратегія Mobile First.
+    <br>
+    Постановка задачі: 
+    <br>
+    1. Використовуючі медіа-запити та СSS- правила, для вибраних вами
+    брейкпоінтів, виконати адаптивну верстку для десктопної версії, планшетної версії, мобільної версії
+    <br>
+    2. В процесі розробки адаптивної верстки, застосувати логічні оператори.`,
+
+    Lab4: `У ході араптації було використано наступні медіа-запити: <a href="https://prnt.sc/gd-8-5IYnkAy">Посилання на зображення</a>
+    <br>
+    <br>
+    У медіазапиті для планшетів зазначено, що ці стилі будуть застосовані тільки при розширенні екрану до 768 пікселів або менше. Для елемента з класом .center-container задаються стилі flex-direction: column; і align-items: center;, що змінює розташування дочірніх елементів на вертикальне і вирівнює їх по центру. Для елемента з класом .center встановлюється ширина в 100%.
+    <br>
+    <br>
+    У медіазапиті для мобыльноъ версыъ стилі застосовуються лише при розширенні екрану до 480 пікселів або менше. Для елемента з класом .center-container і .center застосовуються аналогічні стилі, але для елемента з класом .center також додається внутрішній відступ (padding) у розмірі 10 пікселів. Для елементів таблиці з ідентифікатором #Taxes та для елементів списку з ідентифікатором #contacts встановлюються додаткові стилі, такі як внутрішній відступ і зовнішній відступ для поліпшення вигляду на малих екранах.`,
+
+    Res2: `Посилання на результат виконання для декстопної версії: <a href="https://prnt.sc/p59rLGW2TlJa">Посилання</a>
+    <br>
+    Посилання на результат виконання для планшетної версії: <a href="https://prnt.sc/MtNfAVBvtLFp">Посилання</a>
+    <br>
+    Посилання на результат виконання для мобільної версії: <a href="https://prnt.sc/ub3NGUM-6J_r">Посилання</a>`,
+
+    Conclusions4: 'У ході лабораторної роботи ми успішно використали медіа-запити та CSS-правила для реалізації адаптивної верстки на десктопі, планшеті та мобільних пристроях. Застосування логічних операторів дозволило ефективно керувати виглядом сторінки на різних пристроях, забезпечуючи зручний інтерфейс користувачам з різними розмірами екранів.',
+
     Conclusions     : `Під час виконання лабораторної роботи я ознайомився з мовою програмування СSS,
     а також засвоїв основні принципи роботи з нею. Я дізнався про селектори, ідентифікатори, списки, та трохи попрактикувався з програмуванням на мові JavaScript.`,
     changeTheme: function(){document.getElementById("workspace").innerHTML =changeText.Theme;},
@@ -147,6 +176,10 @@ const changeText = {
     changeEx2: function(){document.getElementById("workspace").innerHTML =changeText.Ex2;},
     changeLab6: function(){document.getElementById("workspace").innerHTML =changeText.Lab6;},
     changeConclusions3: function(){document.getElementById("workspace").innerHTML =changeText.Conclusions3;},
+    changeEx3: function(){document.getElementById("workspace").innerHTML =changeText.Ex3;},
+    changeLab4: function(){document.getElementById("workspace").innerHTML =changeText.Lab4;},
+    changeRes2: function(){document.getElementById("workspace").innerHTML =changeText.Res2;},
+    changeConclusions4: function(){document.getElementById("workspace").innerHTML =changeText.Conclusions4;},
 }
 
 function lab5(){
@@ -155,4 +188,8 @@ function lab5(){
 
 function lab6(){
     window.location.href = "lab6.html";
+}
+
+function lab4(){
+    window.location.href = "lab4.html";
 }
